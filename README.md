@@ -76,3 +76,9 @@ everything in, but we'll expect to see:
 
 [click]: https://click.palletsprojects.com/en/8.1.x/
 [fire]: https://google.github.io/python-fire/guide/
+
+## Run Instructions
+- To get started, run `pipenv install && pipenv shell` while inside of root directory.
+- Run `alembic upgrade head`
+- Run `python run.py` to start app
+- Run `exit` to exit out of the shell
